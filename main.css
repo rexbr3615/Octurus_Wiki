@@ -5,9 +5,9 @@ body {
 
 p {
 color: azure;
-font-family: Arial, sans-serif; /* Define a família da fonte */
-  font-size: 22px;              /* Define o tamanho em pixels */
-  font-weight: normal;          /* Define o peso da fonte (normal, bold, etc.) */
+font-family: Comic Sans MS, Comic Sans, cursive;  
+  font-size: 22px;              
+  font-weight: normal;          
   font-style: normal; 
 }
 
