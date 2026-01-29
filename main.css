@@ -1,0 +1,120 @@
+
+body {
+    background-image: url(nontex2.png);
+}
+
+p {
+color: azure;
+font-family: Arial, sans-serif; /* Define a família da fonte */
+  font-size: 22px;              /* Define o tamanho em pixels */
+  font-weight: normal;          /* Define o peso da fonte (normal, bold, etc.) */
+  font-style: normal; 
+}
+
+a {
+color: rgb(255, 0, 0);
+font-family: Arial, sans-serif; /* Define a família da fonte */
+  font-size: 22px;              /* Define o tamanho em pixels */
+  font-weight: normal;          /* Define o peso da fonte (normal, bold, etc.) */
+  font-style: normal; 
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.cursor {
+    cursor: url(arrow.png);
+    position: absolute;
+    width: 1em;
+    height: 1em;
+}
+
+.page_header {
+    border-radius: 8px;
+    border: 2px;
+    border-color: aliceblue;
+    border-style: solid;
+
+    padding: 2px;
+    margin: 5px;
+}
+
+.page_header p {
+   padding-left: 5px;
+}
+
+.page_section {
+    border-radius: 8px;
+    border: 2px;
+    border-color: aliceblue;
+    border-style: solid;
+
+    padding: 2px;
+    margin: 5px;
+}
+
+.page_section p {
+   padding-left: 5px;
+}
+
+.container {
+        
+        background: #1e1e1e;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 2px solid #c7a27a;
+    }
+
+    .section-title {
+        background: #c7a27a;
+        color: black;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        border-bottom: 1px solid #333;
+        gap: 12px;
+    }
+
+    .row:last-child {
+        border-bottom: none;
+    }
+
+    .row-label {
+        width: 140px;
+        color: #ccc;
+        font-size: 16px;
+    }
+
+    .icons {
+        display: flex;
+        gap: 18px;
+    }
+
+    .char {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70px;
+        text-align: center;
+    }
+
+    .char-icon {
+        width: 80px;
+        height: 80px;
+        background: #444;
+        border-radius: 6px;
+        border: 2px solid #817a7a;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 6px;
+    }
+
+    .char-name {
+        color: #ccc;
+        font-size: 14px;
+    }
